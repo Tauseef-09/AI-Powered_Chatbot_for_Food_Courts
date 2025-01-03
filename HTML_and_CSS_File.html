@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chatbot</title>
+<style>
+body, html {
+margin: 0;
+padding: 0;
+height: 100%;
+overflow: hidden;
+}
+body {
+background: url('./imagef.jpg') no-repeat center center fixed;
+background-size: cover;
+padding: 20px;
+background-clip: padding-box;
+}
+df-messenger {
+--df-messenger-bot-message: #f0f0f0;
+--df-messenger-user-message: #d1ffd7;
+--df-messenger-font-color: #000000;
+--df-messenger-chat-background-color: #e6b398;
+--df-messenger-button-titlebar-color: #4f0303;
+--df-messenger-button-titlebar-font-color: #ffffff;
+}
+footer {
+background-color: #f8f8f8;
+color: black;
+text-align: center;
+padding: 20px 0;
+font-size: 0.9rem;
+position: fixed;
+bottom: 0;
+width: 100%;
+}
+</style>
+</head>
+<body>
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+intent="WELCOME"
+chat-title="FoodCourt-Chatbot"
+agent-id="3c11ff52-bb96-4a78-821f-0680fa962f69"
+language-code="en"
+></df-messenger>
+<!-- Footer -->
+<footer>
+© 2024 UMBC Food Court | Powered by Dialogflow
+</footer>
+<!-- Include Dialogflow Messenger SDK -->
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/messenger-integration.js"></script>
+</body>
+</html>
