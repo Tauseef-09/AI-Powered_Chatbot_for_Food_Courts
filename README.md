@@ -7,13 +7,19 @@ The Food Court Chatbot is an AI-powered virtual assistant designed to enhance th
 ### Features:
 
 •	Real-Time Menu Updates: View available items, prices, and nutritional details.
+
 •	User-Friendly Interaction: Natural language processing for seamless communication.
+
 •	Efficient Data Management: Utilizes MySQL for structured storage of menu data.
+
 •	Web Interface: Easy access to chatbot functionalities.
 
 ### Technologies Used:
 
 •	Dialogflow: Intent recognition, NLP, and entity extraction.
+
 •	FastAPI: High-performance backend framework.
+
 •	MySQL: Relational database for menu and query data.
+
 •	HTML-CSS: For building a user-friendly web interface.
